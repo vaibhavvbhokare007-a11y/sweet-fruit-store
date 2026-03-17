@@ -83,7 +83,7 @@
   </div>
 </div>
  <div class="card">
-    <"C:\Users\Vaibhav Bhokare\Downloads\banana-cavendish_0.png" />
+    <""C:\Users\Vaibhav Bhokare\Downloads\banana-cavendish_0.png"/>
 " alt="mango">
     <h3>banana</h3>
     <p>₹120/kg</p>
