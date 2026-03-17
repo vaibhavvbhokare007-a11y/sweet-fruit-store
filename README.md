@@ -83,7 +83,7 @@
   </div>
 </div>
  <div class="card">
-    <img src="<img width="1024" height="768" alt="banana-cavendish_0" src="https://github.com/user-attachments/assets/a8d13e20-3ee3-4b48-95c4-5b9d2fec52ee" />
+    <"C:\Users\Vaibhav Bhokare\Downloads\banana-cavendish_0.png" />
 " alt="mango">
     <h3>banana</h3>
     <p>₹120/kg</p>
