@@ -77,7 +77,7 @@
   </div>
   <div class="card">
     <img src="https://images.unsplash.com/photo-1550258987-190a2d41a8ba" alt="mango">
-    <h3>Mango</h3>
+    <h3>pinapple</h3>
     <p>₹120/kg</p>
     <button onclick="addToCart('Mango')">Add to Cart</button>
   </div>
