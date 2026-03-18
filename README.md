@@ -140,6 +140,7 @@ button {
 <!-- CART -->
 <div id="cart" class="section">
 <h2>Cart</h2>
+<h3> apple, mango, cake, cherry, barfi, ladoo.....</h3>
 <ul id="cartList"></ul>
 </div>
 
