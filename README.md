@@ -118,6 +118,10 @@ button {
 <h3>Barfi</h3>
 <button onclick="addToCart('Barfi')">Add</button>
 </div>
+<h4>kajukatli</h4>
+<img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT93Xp55HP33vx7gIJ24vn00V1xmdDUNfvTrXwaO0mn6otbMGAncWOWRl635FvJ6X0-BTppJePkRtUMOm7dQBHbmcneQCkzo9RINbgyAMvdW1xQFgPBFxXjJiWdA4wFI9AFkFJp&s=10&ec=121584920"
+<h4> price 600 rs /kg</h4>
+<button on onclick="addToCart('kajukatli')">Add</button>
 </div>
 
 <!-- FRUITS -->
@@ -213,3 +217,28 @@ window.onload = function() {
 
 </body>
 </html>
+<input type="text" id="myInput" onkeyup="searchProducts()" placeholder="Search for sweets...">
+
+<div id="productGrid" style="display: flex; gap: 20px; margin-top: 20px;">
+  <div class="product" data-name="Kaju Katli">
+    <img src="kaju_katli.jpg" width="100"><p>Kaju Katli</p>
+  </div>
+  <div class="product" data-name="Gulab Jamun">
+    <img src="gulab_jamun.jpg" width="100"><p>Gulab Jamun</p>
+  </div>
+  <div class="product" data-name="Besan Ladoo">
+    <img src="ladoo.jpg" width="100"><p>Besan Ladoo</p>
+  </div>
+</div>
+
+<script>
+function searchProducts() {
+  let input = document.getElementById('myInput').value.toLowerCase();
+  let products = document.querySelectorAll('.product');
+
+  products.forEach(item => {
+    let name = item.getAttribute('data-name').toLowerCase();
+    item.style.display = name.includes(input) ? "block" : "none";
+  });
+}
+</script>
